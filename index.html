@@ -262,90 +262,78 @@
         </div>
     </section>
 
-    <!-- Ficha Técnica Accordion -->
+    <!-- Ficha Técnica Accordion - Design Original -->
     <section class="ficha-tecnica" id="obra">
         <h2 class="section-title">Ficha Técnica</h2>
         <div class="ficha-container">
-            <div class="accordion" id="fichaAccordion">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                            <i class="fas fa-building"></i> Informações Gerais
-                        </button>
-                    </h2>
-                    <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#fichaAccordion">
-                        <div class="accordion-body">
-                            <div class="ficha-grid">
-                                <div class="ficha-item">
-                                    <strong>Incorporação:</strong> EZTEC<br>
-                                    <strong>Construção:</strong> EZTEC<br>
-                                    <strong>Projeto Arquitetônico:</strong> MCAA<br>
-                                    <strong>Projeto Paisagístico:</strong> Benedito Abbud<br>
-                                    <strong>Projeto de Interiores:</strong> Carlos Rossi
-                                </div>
-                            </div>
+            <div class="ficha-accordion">
+                <!-- Item 1 -->
+                <div class="ficha-accordion-item">
+                    <button class="ficha-accordion-btn" onclick="toggleFicha(0)">
+                        <span class="ficha-icon">📋</span>
+                        <span class="ficha-title">Informações Gerais</span>
+                        <span class="ficha-toggle">+</span>
+                    </button>
+                    <div class="ficha-accordion-content" id="ficha-0">
+                        <div class="ficha-accordion-body">
+                            <p><strong>Incorporação:</strong> EZTEC<br>
+                            <strong>Construção:</strong> EZTEC<br>
+                            <strong>Projeto Arquitetônico:</strong> MCAA<br>
+                            <strong>Projeto Paisagístico:</strong> Benedito Abbud<br>
+                            <strong>Projeto de Interiores:</strong> Carlos Rossi</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                            <i class="fas fa-map-location-dot"></i> Localização
-                        </button>
-                    </h2>
-                    <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#fichaAccordion">
-                        <div class="accordion-body">
-                            <div class="ficha-grid">
-                                <div class="ficha-item">
-                                    <strong>Endereço:</strong> Rua Barão de Monte Santo, 1.040<br>
-                                    <strong>Bairro:</strong> Mooca<br>
-                                    <strong>Cidade:</strong> São Paulo - SP<br>
-                                    <strong>CEP:</strong> 03164-000<br>
-                                    <strong>Área do Terreno:</strong> 6.115 m²
-                                </div>
-                            </div>
+                <!-- Item 2 -->
+                <div class="ficha-accordion-item">
+                    <button class="ficha-accordion-btn" onclick="toggleFicha(1)">
+                        <span class="ficha-icon">📍</span>
+                        <span class="ficha-title">Localização</span>
+                        <span class="ficha-toggle">+</span>
+                    </button>
+                    <div class="ficha-accordion-content" id="ficha-1">
+                        <div class="ficha-accordion-body">
+                            <p><strong>Endereço:</strong> Rua Barão de Monte Santo, 1.040<br>
+                            <strong>Bairro:</strong> Mooca<br>
+                            <strong>Cidade:</strong> São Paulo - SP<br>
+                            <strong>CEP:</strong> 03164-000<br>
+                            <strong>Área do Terreno:</strong> 6.115 m²</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                            <i class="fas fa-ruler-combined"></i> Características Físicas
-                        </button>
-                    </h2>
-                    <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#fichaAccordion">
-                        <div class="accordion-body">
-                            <div class="ficha-grid">
-                                <div class="ficha-item">
-                                    <strong>Nº de Torres:</strong> 1 (Única)<br>
-                                    <strong>Nº de Pavimentos:</strong> 2 Subsólos + Térreo (Lazer) + 9 Pavimentos Tipo<br>
-                                    <strong>Nº de Unidades por Andar:</strong> 18 (Pav. Térreo) e 24 (Pav. Tipo)<br>
-                                    <strong>Nº Total de Unidades:</strong> 234<br>
-                                    <strong>Nº de Vagas:</strong> 234<br>
-                                    <strong>Nº de Elevadores:</strong> 4
-                                </div>
-                            </div>
+                <!-- Item 3 -->
+                <div class="ficha-accordion-item">
+                    <button class="ficha-accordion-btn" onclick="toggleFicha(2)">
+                        <span class="ficha-icon">📐</span>
+                        <span class="ficha-title">Características Físicas</span>
+                        <span class="ficha-toggle">+</span>
+                    </button>
+                    <div class="ficha-accordion-content" id="ficha-2">
+                        <div class="ficha-accordion-body">
+                            <p><strong>Nº de Torres:</strong> 1 (Única)<br>
+                            <strong>Nº de Pavimentos:</strong> 2 Subsólos + Térreo (Lazer) + 9 Pavimentos Tipo<br>
+                            <strong>Nº de Unidades por Andar:</strong> 18 (Pav. Térreo) e 24 (Pav. Tipo)<br>
+                            <strong>Nº Total de Unidades:</strong> 234<br>
+                            <strong>Nº de Vagas:</strong> 234<br>
+                            <strong>Nº de Elevadores:</strong> 4</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                            <i class="fas fa-door-open"></i> Áreas Disponíveis
-                        </button>
-                    </h2>
-                    <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#fichaAccordion">
-                        <div class="accordion-body">
-                            <div class="ficha-grid">
-                                <div class="ficha-item">
-                                    <strong>2 Dormitórios:</strong> 63 m² (1 suíte) – 1 vaga – 158 unidades<br>
-                                    <strong>3 Dormitórios:</strong> 78 e 79 m² (1 suíte) – 1 vaga – 56 unidades<br>
-                                    <strong>3 Dormitórios:</strong> 82 m² (1 suíte) – 1 vaga – 20 unidades
-                                </div>
-                            </div>
+                <!-- Item 4 -->
+                <div class="ficha-accordion-item">
+                    <button class="ficha-accordion-btn" onclick="toggleFicha(3)">
+                        <span class="ficha-icon">🚪</span>
+                        <span class="ficha-title">Áreas Disponíveis</span>
+                        <span class="ficha-toggle">+</span>
+                    </button>
+                    <div class="ficha-accordion-content" id="ficha-3">
+                        <div class="ficha-accordion-body">
+                            <p><strong>2 Dormitórios:</strong> 63 m² (1 suíte) – 1 vaga – 158 unidades<br>
+                            <strong>3 Dormitórios:</strong> 78 e 79 m² (1 suíte) – 1 vaga – 56 unidades<br>
+                            <strong>3 Dormitórios:</strong> 82 m² (1 suíte) – 1 vaga – 20 unidades</p>
                         </div>
                     </div>
                 </div>

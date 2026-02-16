@@ -1,3 +1,26 @@
+// ==================== Accordion da Ficha Técnica ====================
+function toggleFicha(index) {
+    const content = document.getElementById(`ficha-${index}`);
+    const btn = content.previousElementSibling;
+    
+    // Fecha todos os outros
+    document.querySelectorAll('.ficha-accordion-content.active').forEach((el) => {
+        if (el.id !== `ficha-${index}`) {
+            el.classList.remove('active');
+        }
+    });
+    
+    document.querySelectorAll('.ficha-accordion-btn.active').forEach((el) => {
+        if (el !== btn) {
+            el.classList.remove('active');
+        }
+    });
+    
+    // Toggle o atual
+    content.classList.toggle('active');
+    btn.classList.toggle('active');
+}
+
 // ==================== Carrossel de Hero ====================
 let currentSlideIndex = 0;
 const slides = document.querySelectorAll('.slide');

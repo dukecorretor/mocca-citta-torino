@@ -538,7 +538,7 @@ body {
     }
 }
 
-/* ==================== Ficha Técnica Accordion ==================== */
+/* ==================== Ficha Técnica Accordion (Custom) ==================== */
 .ficha-tecnica {
     padding: 60px 20px;
     max-width: 1400px;
@@ -550,114 +550,113 @@ body {
     margin: 0 auto;
 }
 
-.accordion {
-    background-color: transparent;
-}
-
-.accordion-item {
+.ficha-accordion {
     background-color: white;
-    border: 1px solid #e0e0e0;
     border-radius: 8px;
-    margin-bottom: 15px;
     overflow: hidden;
-    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-.accordion-item:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+.ficha-accordion-item {
+    border-bottom: 1px solid #e8e8e8;
 }
 
-.accordion-button {
+.ficha-accordion-item:last-child {
+    border-bottom: none;
+}
+
+.ficha-accordion-btn {
+    width: 100%;
+    padding: 20px 25px;
     background-color: #f9f9f9;
-    color: #1a3a2e;
     border: none;
-    padding: 20px;
-    font-size: 16px;
-    font-weight: 600;
     text-align: left;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a3a2e;
     cursor: pointer;
-    transition: all 0.3s ease;
     display: flex;
     align-items: center;
-    gap: 12px;
-    width: 100%;
+    gap: 15px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
-.accordion-button i {
-    font-size: 18px;
-    color: #c41e3a;
-}
-
-.accordion-button:hover {
+.ficha-accordion-btn:hover {
     background-color: #f0f0f0;
 }
 
-.accordion-button.collapsed::after {
-    transform: rotate(-90deg);
+.ficha-accordion-btn.active {
+    background-color: #1a3a2e;
+    color: white;
 }
 
-.accordion-button::after {
-    content: '›';
-    font-size: 28px;
-    margin-left: auto;
-    transform: rotate(0deg);
+.ficha-icon {
+    font-size: 20px;
+    min-width: 25px;
+}
+
+.ficha-title {
+    flex: 1;
+}
+
+.ficha-toggle {
+    font-size: 22px;
+    font-weight: bold;
     transition: transform 0.3s ease;
+    min-width: 20px;
 }
 
-.accordion-collapse {
-    animation: slideDown 0.3s ease;
+.ficha-accordion-btn.active .ficha-toggle {
+    transform: rotate(45deg);
 }
 
-@keyframes slideDown {
-    from {
-        opacity: 0;
-        max-height: 0;
-    }
-    to {
-        opacity: 1;
-        max-height: 500px;
-    }
+.ficha-accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
 }
 
-.accordion-body {
+.ficha-accordion-content.active {
+    max-height: 500px;
+}
+
+.ficha-accordion-body {
     padding: 25px;
     background-color: white;
-    border-top: 1px solid #e0e0e0;
-}
-
-.ficha-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-}
-
-.ficha-item {
     line-height: 2;
     color: #333;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
 }
 
-.ficha-item strong {
+.ficha-accordion-body strong {
+    color: #1a3a2e;
+    font-weight: 600;
     display: block;
     margin-top: 12px;
     margin-bottom: 2px;
-    color: #1a3a2e;
-    font-weight: 600;
+}
+
+.ficha-accordion-body p {
+    margin: 0;
 }
 
 @media (max-width: 768px) {
-    .accordion-button {
-        padding: 15px;
-        font-size: 15px;
+    .ficha-accordion-btn {
+        padding: 15px 18px;
+        font-size: 14px;
+        gap: 12px;
     }
 
-    .ficha-grid {
-        grid-template-columns: 1fr;
+    .ficha-accordion-body {
+        padding: 20px 18px;
+        font-size: 13px;
     }
 
-    .accordion-body {
-        padding: 20px;
+    .ficha-icon {
+        font-size: 18px;
     }
 }
 
