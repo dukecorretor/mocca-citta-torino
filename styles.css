@@ -599,3 +599,98 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: #0d1f1a;
 }
+
+/* ==================== WhatsApp Float Button ==================== */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp-icon-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, filter 0.2s ease;
+    object-fit: cover;
+}
+
+.whatsapp-icon-img:hover {
+    transform: scale(1.1);
+    filter: brightness(0.9);
+}
+
+@media (max-width: 600px) {
+    .whatsapp-icon-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .whatsapp-float {
+        bottom: 15px;
+        right: 15px;
+    }
+}
+
+/* ==================== EZTEC Bubble Button ==================== */
+.bolha-eztec {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    background-color: #1a3a2e;
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    clip-path: polygon(0 0, 95% 0, 100% 10%, 100% 90%, 95% 100%, 0 100%);
+    box-shadow: -4px 8px 20px rgba(0, 0, 0, 0.2);
+    z-index: 9998;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bolha-eztec:hover {
+    background-color: #0f1f1a;
+    transform: scale(1.03);
+    color: #fff;
+}
+
+@keyframes flutuar {
+    from {
+        transform: translateY(-5px);
+    }
+    to {
+        transform: translateY(5px);
+    }
+}
+
+@media (max-width: 768px) {
+    .bolha-eztec {
+        font-size: 1rem;
+        padding: 16px 20px;
+        top: 35%;
+    }
+}
+
+@media (max-width: 480px) {
+    .bolha-eztec {
+        font-size: 0.95rem;
+        padding: 14px 18px;
+        top: 38%;
+    }
+}
