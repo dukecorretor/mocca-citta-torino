@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torino Mooca Città - Lançamento Imobiliário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="logo-mooca-citta-header.png" alt="MoocaCittà Logo">
+            </div>
+            <nav class="nav">
+                <a href="#regiao" class="nav-link">REGIÃO</a>
+                <a href="#residenciais" class="nav-link">RESIDENCIAIS</a>
+                <a href="#videos" class="nav-link">VÍDEOS</a>
+                <a href="#obra" class="nav-link">OBRA</a>
+                <a href="#eztec" class="nav-link">EZTEC</a>
+                <a href="#contato" class="nav-link">CONTATO</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="img-mooca-citta-torino-1.jpg" alt="Torino Mooca Città" class="hero-image">
+        <div class="hero-content">
+            <h1 class="hero-title">Lançamento</h1>
+            <p class="hero-subtitle">Torino Mooca Città</p>
+        </div>
+    </section>
+
+    <!-- Projeto Section -->
+    <section class="projeto" id="residenciais">
+        <h2 class="section-title">Projeto</h2>
+        <div class="projeto-content">
+            <img src="img-mooca-citta-torino-1.jpg" alt="Edifício Torino" class="projeto-image">
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="info-section">
+        <div class="info-container">
+            <img src="logo-mooca-citta-torino.png" alt="Torino Logo" class="info-logo">
+            <div class="info-text">
+                <h3>Torino Mooca Città</h3>
+                <p>63 a 82 m² | 2 e 3 dorms.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais Section -->
+    <section class="diferenciais" id="residenciais">
+        <h2 class="section-title">Diferenciais</h2>
+        <div class="diferenciais-content">
+            <ul class="diferenciais-list">
+                <li>Terreno com mais de 6 mil m²</li>
+                <li>Lazer completo com mais de 20 itens</li>
+                <li>Rooftop com vista panorâmica</li>
+                <li>Piscina de 25 m com borda infinita e vista para o parque</li>
+                <li>Quadra de areia</li>
+                <li>Alto padrão Eztec de acabamentos</li>
+                <li>Serviços pay-per-use</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Apartamentos Section -->
+    <section class="apartamentos" id="apartamentos">
+        <div class="tabs">
+            <button class="tab-button active" onclick="switchTab('apartamentos')">Apartamentos</button>
+            <button class="tab-button" onclick="switchTab('plantas')">Plantas</button>
+            <button class="tab-button" onclick="switchTab('lazer')">Lazer</button>
+        </div>
+
+        <div class="tab-content">
+            <div id="apartamentos" class="tab-pane active">
+                <div class="gallery">
+                    <img src="img-mooca-citta-torino-1.jpg" alt="Perspectiva 1" class="gallery-image">
+                    <img src="img-mooca-citta-firenze.jpg" alt="Perspectiva 2" class="gallery-image">
+                </div>
+                <p class="image-caption">Perspectiva ilustrada do living do apto. tipo de 63 m² - Final 6</p>
+                <div class="gallery-thumbnails">
+                    <img src="img-mooca-citta-torino-1.jpg" alt="Thumb 1" class="thumbnail">
+                    <img src="img-mooca-citta-firenze.jpg" alt="Thumb 2" class="thumbnail">
+                    <img src="img-mooca-citta-torino-1.jpg" alt="Thumb 3" class="thumbnail">
+                </div>
+            </div>
+
+            <div id="plantas" class="tab-pane">
+                <div class="gallery">
+                    <img src="logo-mooca-citta-torino.png" alt="Planta 1" class="gallery-image">
+                </div>
+                <p class="image-caption">Plantas dos apartamentos</p>
+            </div>
+
+            <div id="lazer" class="tab-pane">
+                <div class="gallery">
+                    <img src="Imagem-aerea-torino991x991-1.jpg" alt="Lazer" class="gallery-image">
+                </div>
+                <p class="image-caption">Área de lazer e comum</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h3>Faça o Download</h3>
+            <button class="btn-book">📄 Book</button>
+        </div>
+    </section>
+
+    <!-- Ficha Técnica -->
+    <section class="ficha-tecnica" id="obra">
+        <h2 class="section-title">Ficha técnica</h2>
+        <div class="ficha-container">
+            <div class="ficha-left">
+                <h4>X</h4>
+            </div>
+            <div class="ficha-right">
+                <div class="ficha-item">
+                    <strong>Incorporação:</strong> Eztec<br>
+                    <strong>Construção:</strong> Eztec<br>
+                    <strong>Endereço:</strong> Rua Barão de Monte Santo, 1 040<br>
+                    <strong>Bairro:</strong> Mooca<br>
+                    <strong>Projeto Arquitetônico:</strong> MCAA<br>
+                    <strong>Projeto Paisagístico:</strong> Benedito Abbud<br>
+                    <strong>Projeto de Interiores:</strong> Carlos Rossi<br>
+                </div>
+                <div class="ficha-item">
+                    <strong>Área do Terreno:</strong> 6.115 m²<br>
+                    <strong>Nº de Torres:</strong> Única<br>
+                    <strong>Nº de Pavimentos:</strong> 2 Subsólos + Térreo (Lazer) + 9 Pavimentos Tipo<br>
+                    <strong>Nº de Unidades por Andar:</strong> 18 (Pav. Térreo) e 24 (Pav. Tipo)<br>
+                    <strong>Nº Total de Unidades:</strong> 234<br>
+                    <strong>Nº de Vagas:</strong> 234<br>
+                    <strong>Nº de Elevadores:</strong> 4<br>
+                </div>
+                <div class="ficha-item">
+                    <strong>Áreas Privativas:</strong><br>
+                    • 2 dorms. – 63 m² (1 suite) – 1 vaga (158 units)<br>
+                    • 3 dorms. – 78 e 79 m² (1 suite) – 1 vaga (56 units)<br>
+                    • 3 dorms. – 82 m² (1 suite) – 1 vaga (20 units)
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contato">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>CONTATO</h4>
+                <p>
+                    <img src="icon-tel-branco.png" alt="Telefone"> (11) XXXX-XXXX
+                </p>
+                <p>
+                    <img src="icon-whats-branco.png" alt="WhatsApp"> (11) 99999-9999
+                </p>
+                <p>
+                    <img src="icon-email-branco.png" alt="Email"> contato@torino.com.br
+                </p>
+            </div>
+            <div class="footer-section">
+                <h4>SIGA-NOS</h4>
+                <div class="social-icons">
+                    <img src="icon-chat-branco.png" alt="Chat">
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Torino Mooca Città. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/551199999999" class="whatsapp-button" target="_blank">
+        <img src="icon-whats-branco.png" alt="WhatsApp">
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
