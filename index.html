@@ -30,7 +30,10 @@
     <!-- Favicon -->
     <link rel="icon" href="logo-mooca-citta-torino.png" type="image/png">
     <link rel="apple-touch-icon" href="logo-mooca-citta-torino.png">
-
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1a3a2e">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
@@ -147,12 +150,34 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
+    <!-- Hero Section com Carrossel -->
     <section class="hero">
-        <img src="banner-mooca-citta-torino-lg-1.jpg" alt="Torino Mooca Città" class="hero-image">
-        <div class="hero-content">
-            <h1 class="hero-title">Lançamento</h1>
-            <p class="hero-subtitle">Torino Mooca Città</p>
+        <div class="hero-slider">
+            <div class="slide active">
+                <img src="banner-mooca-citta-torino-lg-1.jpg" alt="Torino Mooca Città" />
+                <div class="slide-content">
+                    <h1><strong>TORINO MOOCA CITTÀ</strong></h1>
+                    <p>📐 <strong>Apartamentos de 63 a 82 m²</strong></p>
+                    <p>🛏️ <strong>2 e 3 Dormitórios</strong> com suíte</p>
+                    <p>🏊 <strong>Rooftop com vista panorâmica</strong> e piscina de 25m</p>
+                    <p>📍 <strong>Localização privilegiada</strong> na Mooca, São Paulo</p>
+                    <button class="btn-hero" onclick="document.getElementById('cadastro').scrollIntoView({behavior: 'smooth'})">Quero Receber Informações</button>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="img-mooca-citta-torino-1.jpg" alt="Perspectiva Torino" />
+                <div class="slide-content">
+                    <h1><strong>MAIS DE 20 ITENS DE LAZER</strong></h1>
+                    <p>🌳 Terreno com 6.115 m²</p>
+                    <p>🔑 Tecnologia de ponta</p>
+                    <p>⭐ Alto padrão EZTEC</p>
+                    <button class="btn-hero" onclick="document.getElementById('cadastro').scrollIntoView({behavior: 'smooth'})">Agende Sua Visita</button>
+                </div>
+            </div>
+        </div>
+        <div class="slider-dots">
+            <span class="dot active" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
         </div>
     </section>
 
@@ -237,37 +262,147 @@
         </div>
     </section>
 
-    <!-- Ficha Técnica -->
+    <!-- Ficha Técnica Accordion -->
     <section class="ficha-tecnica" id="obra">
-        <h2 class="section-title">Ficha técnica</h2>
+        <h2 class="section-title">Ficha Técnica</h2>
         <div class="ficha-container">
-            <div class="ficha-left">
-                <h4>X</h4>
+            <div class="accordion" id="fichaAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                            <i class="fas fa-building"></i> Informações Gerais
+                        </button>
+                    </h2>
+                    <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#fichaAccordion">
+                        <div class="accordion-body">
+                            <div class="ficha-grid">
+                                <div class="ficha-item">
+                                    <strong>Incorporação:</strong> EZTEC<br>
+                                    <strong>Construção:</strong> EZTEC<br>
+                                    <strong>Projeto Arquitetônico:</strong> MCAA<br>
+                                    <strong>Projeto Paisagístico:</strong> Benedito Abbud<br>
+                                    <strong>Projeto de Interiores:</strong> Carlos Rossi
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            <i class="fas fa-map-location-dot"></i> Localização
+                        </button>
+                    </h2>
+                    <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#fichaAccordion">
+                        <div class="accordion-body">
+                            <div class="ficha-grid">
+                                <div class="ficha-item">
+                                    <strong>Endereço:</strong> Rua Barão de Monte Santo, 1.040<br>
+                                    <strong>Bairro:</strong> Mooca<br>
+                                    <strong>Cidade:</strong> São Paulo - SP<br>
+                                    <strong>CEP:</strong> 03164-000<br>
+                                    <strong>Área do Terreno:</strong> 6.115 m²
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                            <i class="fas fa-ruler-combined"></i> Características Físicas
+                        </button>
+                    </h2>
+                    <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#fichaAccordion">
+                        <div class="accordion-body">
+                            <div class="ficha-grid">
+                                <div class="ficha-item">
+                                    <strong>Nº de Torres:</strong> 1 (Única)<br>
+                                    <strong>Nº de Pavimentos:</strong> 2 Subsólos + Térreo (Lazer) + 9 Pavimentos Tipo<br>
+                                    <strong>Nº de Unidades por Andar:</strong> 18 (Pav. Térreo) e 24 (Pav. Tipo)<br>
+                                    <strong>Nº Total de Unidades:</strong> 234<br>
+                                    <strong>Nº de Vagas:</strong> 234<br>
+                                    <strong>Nº de Elevadores:</strong> 4
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                            <i class="fas fa-door-open"></i> Áreas Disponíveis
+                        </button>
+                    </h2>
+                    <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#fichaAccordion">
+                        <div class="accordion-body">
+                            <div class="ficha-grid">
+                                <div class="ficha-item">
+                                    <strong>2 Dormitórios:</strong> 63 m² (1 suíte) – 1 vaga – 158 unidades<br>
+                                    <strong>3 Dormitórios:</strong> 78 e 79 m² (1 suíte) – 1 vaga – 56 unidades<br>
+                                    <strong>3 Dormitórios:</strong> 82 m² (1 suíte) – 1 vaga – 20 unidades
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="ficha-right">
-                <div class="ficha-item">
-                    <strong>Incorporação:</strong> Eztec<br>
-                    <strong>Construção:</strong> Eztec<br>
-                    <strong>Endereço:</strong> Rua Barão de Monte Santo, 1 040<br>
-                    <strong>Bairro:</strong> Mooca<br>
-                    <strong>Projeto Arquitetônico:</strong> MCAA<br>
-                    <strong>Projeto Paisagístico:</strong> Benedito Abbud<br>
-                    <strong>Projeto de Interiores:</strong> Carlos Rossi<br>
-                </div>
-                <div class="ficha-item">
-                    <strong>Área do Terreno:</strong> 6.115 m²<br>
-                    <strong>Nº de Torres:</strong> Única<br>
-                    <strong>Nº de Pavimentos:</strong> 2 Subsólos + Térreo (Lazer) + 9 Pavimentos Tipo<br>
-                    <strong>Nº de Unidades por Andar:</strong> 18 (Pav. Térreo) e 24 (Pav. Tipo)<br>
-                    <strong>Nº Total de Unidades:</strong> 234<br>
-                    <strong>Nº de Vagas:</strong> 234<br>
-                    <strong>Nº de Elevadores:</strong> 4<br>
-                </div>
-                <div class="ficha-item">
-                    <strong>Áreas Privativas:</strong><br>
-                    • 2 dorms. – 63 m² (1 suite) – 1 vaga (158 units)<br>
-                    • 3 dorms. – 78 e 79 m² (1 suite) – 1 vaga (56 units)<br>
-                    • 3 dorms. – 82 m² (1 suite) – 1 vaga (20 units)
+        </div>
+    </section>
+
+    <!-- Cadastro / Formulário -->
+    <section class="cadastro-section" id="cadastro">
+        <div class="cadastro-container">
+            <div class="cadastro-content">
+                <h2>Fique por Dentro do Lançamento</h2>
+                <p>Cadastre-se para receber as novidades e condições especiais do Torino Mooca Città</p>
+                <form id="cadastroForm" class="cadastro-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo *</label>
+                            <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="seu@email.com">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="telefone">WhatsApp/Telefone *</label>
+                            <input type="tel" id="telefone" name="telefone" required placeholder="(11) 99999-9999">
+                        </div>
+                        <div class="form-group">
+                            <label for="interesse">Interesse *</label>
+                            <select id="interesse" name="interesse" required>
+                                <option value="">-- Selecione --</option>
+                                <option value="Apto 2 Dorms">Apto 2 Dormitórios</option>
+                                <option value="Apto 3 Dorms">Apto 3 Dormitórios</option>
+                                <option value="Mais Informações">Mais Informações</option>
+                                <option value="Agendar Visita">Agendar Visita</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group full">
+                        <label for="mensagem">Mensagem (opcional)</label>
+                        <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem..." rows="4"></textarea>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" id="newsletter" name="newsletter" checked>
+                        <label for="newsletter">Desejo receber novidades e ofertas especiais</label>
+                    </div>
+                    <button type="submit" class="btn-submit">Receber Informações via WhatsApp</button>
+                </form>
+            </div>
+            <div class="cadastro-download">
+                <div class="download-box">
+                    <i class="fas fa-file-pdf"></i>
+                    <h3>Baixe o Book do Empreendimento</h3>
+                    <p>Conheça todos os detalhes, plantas e fotos do projeto</p>
+                    <a href="#" class="btn-download" onclick="downloadBook()">📥 Baixar PDF</a>
                 </div>
             </div>
         </div>

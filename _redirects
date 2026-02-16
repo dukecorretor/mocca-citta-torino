@@ -1,0 +1,8 @@
+# Netlify Redirects for Single Page Application
+
+# Redireciona todas as requisições para index.html (exceto arquivos estáticos)
+/*  /index.html  200
+
+# Redirects específicos (se necessário)
+/pdf/*  https://storage.example.com/pdf/:splat  200
+/docs/*  /docs/:splat  200

@@ -1,0 +1,1716 @@
+/* Estilo do Header Compacto */
+.main-header {
+  background-color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  padding: 6px 10px;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+  color: #007bff;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 10px 0;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  z-index: 1001;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 8px 16px;
+  color: #333;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* WhatsApp */
+.whatsapp-contact {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.whatsapp-icon-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whatsapp-icon-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(37, 211, 102, 0.8);
+}
+
+@media (max-width: 768px) {
+  .whatsapp-icon-img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.slide-content {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+}
+
+.bg-eztec {
+  background-color: #ffffff !important; /* vinho institucional */
+}
+
+.rodape-eztec {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.rodape-eztec h5,
+.rodape-eztec h6,
+.rodape-eztec p,
+.rodape-eztec a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.rodape-eztec .footer-link {
+  display: inline-block;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.rodape-eztec .footer-link:hover {
+  color: #7c0719;
+  text-decoration: underline;
+}
+
+.rodape-eztec .social-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.rodape-eztec .social-link:hover {
+  color: #7c0719;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Moved Osasco Residence | Lançamento EZTEC</title>
+  <meta name="description" content="Cadastre-se e descubra o lançamento EZTEC mais aguardado da Vila Andrade. Condições especiais para quem se antecipa.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Inteligência Imobiliária">
+  <link rel="canonical" href="https://www.movedeztecosasco.com.br/">
+
+  <!-- Keywords -->
+  <meta name="keywords" content="MoveD Osasco, EZTEC, MoveD EZTEC, EZTEC Osasco, lançamento EZTEC, lançamentos Osasco, imóveis EZTEC, corretor EZTEC, movedeztecosasco.com.br, imóveis novos Osasco, planta EZTEC Osasco, apartamentos EZTEC, lançamento imobiliário SP, comprar apartamento EZTEC, pré-venda EZTEC, imóveis zona oeste, imóvel na planta SP, EZTEC Osaco, imoveis ezteki, movid osasco, eztequi, ezteck, maved osasco, imoveis movid, lançamento eztecki, empreendimento osasco, ezteck zona oeste, apto novo osasco, eztec 2025, apartamento lançamento osasco, invest osasco, invest eztec, osasco lançamento novo, imóvel novo eztec, cadastro apartamento eztec, apartamento 2 dorms osasco, lançamento zona oeste SP, imobiliária eztec, planta e tabela EZTEC, pré-lançamento EZTEC 2025, imóveis Bussocaba, zona oeste, imóveis SP, imóveis EZTEC Bussocaba, EZTEC Bussocaba, move d, movido osasco, movid osaco, mvde osasco, ezetc, Ezetec, Ezteq, imóveis na região de Osasco, apartamentos próximo ao Bussocaba, apto zona oeste, lançamento imobiliário zona oeste, Osasco lançamento, Bussocaba EZTEC, Bussokaba, Eiztec, Osasco EZTEC lançamento, Osasco Bussocaba imóvel, moradia nova Osasco, morar bem SP, casas EZTEC Osasco, imóvel EZTEC SP, empreendimento EZTEC zona oeste, novo EZTEC Osasco, lançamentos EZTEC 2025, planta grátis EZTEC, cadastro EZTEC gratuito">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Moved Osasco Residence | Lançamento EZTEC" />
+  <meta property="og:description" content="O melhor lançamento de Osasco está aqui! Localização privilegiada na Av. Bussocaba, com lazer completo e condições especiais de lançamento." />
+  <meta property="og:image" content="https://movedeztecosasco.com.br/01-Imagem.png" />
+  <meta property="og:url" content="https://movedeztecosasco.com.br" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Moved Osasco Residence" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:image:alt" content="Imagem do Moved Osasco Residence" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Moved Osasco Residence | Lançamento EZTEC" />
+  <meta name="twitter:description" content="Descubra o novo residencial da EZTEC em Osasco com condições incríveis e localização privilegiada." />
+  <meta name="twitter:image" content="https://movedeztecosasco.com.br/01-Imagem.png" />
+  <meta name="twitter:url" content="https://movedeztecosasco.com.br" />
+
+<!-- Favicon padrão -->
+<link rel="icon" href="favicon.png" type="image/png">
+
+<!-- Para dispositivos Apple (iPhone/iPad) -->
+<link rel="apple-touch-icon" href="favicon.png">
+
+<!-- Google tag (gtag.js) event - delayed navigation helper -->
+<script>
+  function gtagSendEvent(url) {
+    var callback = function () {
+      if (typeof url === 'string') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion_event_contact_1', {
+      'event_callback': callback,
+      'event_timeout': 2000
+    });
+    // Contabiliza clique no Analytics
+    gtag('event', 'whatsapp_click', {
+      'event_category': 'engajamento',
+      'event_label': url,
+      'value': 1
+    });
+    return false;
+  }
+  document.addEventListener('DOMContentLoaded', function() {
+    // Bola WhatsApp
+    var bolha = document.querySelector('.bolha-eztec');
+    if (bolha) {
+      bolha.onclick = function(e) {
+        e.preventDefault();
+        gtagSendEvent(this.href || 'https://wa.me/5511954606125?text=Oi%2C%20acabei%20de%20ver%20o%20Moved%20Osasco%20no%20site%20e%20quero%20saber%20mais%20detalhes%20e%20condi%C3%A7%C3%B5es!%20Pode%20me%20ajudar%3F%20%F0%9F%92%AB');
+        return false;
+      };
+    }
+    // Botão fixo WhatsApp
+    var botaoFixo = document.querySelector('.whatsapp-float');
+    if (botaoFixo) {
+      botaoFixo.onclick = function(e) {
+        e.preventDefault();
+        gtagSendEvent(this.href || 'https://wa.me/5511954606125?text=Olá%2C%20tava%20olhando%20o%20Moved%20Osasco%20pelo%20site%20e%20gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es!%20%F0%9F%98%8A');
+        return false;
+      };
+    }
+  });
+</script>
+
+</head>
+
+
+  <!-- Google Analytics (apenas um código) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J5T5KL0NS5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-J5T5KL0NS5');
+  </script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Seu CSS personalizado -->
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+<script>
+  // Rastreia qualquer elemento com o número do WhatsApp no href ou onclick
+  var numeroWhatsApp = '5511954606125';
+  // Links com o número
+  document.querySelectorAll('a[href*="' + numeroWhatsApp + '"]').forEach(function(el) {
+    el.addEventListener('click', function() {
+      if (typeof gtag === 'function') {
+        gtag('event', 'whatsapp_click', {
+          'event_category': 'engajamento',
+          'event_label': 'WhatsApp ' + numeroWhatsApp,
+          'value': 1
+        });
+      }
+    });
+  });
+  // Divs ou outros elementos com onclick contendo o número
+  document.querySelectorAll('[onclick*="' + numeroWhatsApp + '"]').forEach(function(el) {
+    el.addEventListener('click', function() {
+      if (typeof gtag === 'function') {
+        gtag('event', 'whatsapp_click', {
+          'event_category': 'engajamento',
+          'event_label': 'WhatsApp ' + numeroWhatsApp,
+          'value': 1
+        });
+      }
+    });
+  });
+</script>
+</body>
+  <!-- HEADER -->
+  <header class="main-header">
+    <div class="header-container">
+      <div class="logo">
+  <a href="https://ezteccorretor.com.br/" target="_blank"><img src="favicon.png" alt="Logo Eztec Corretor" /></a>
+      </div>
+    </div>
+  </header>
+   <!-- BOTÃO FIXO WHATSAPP -->
+<a href="https://wa.me/5511954606125?text=Olá%2C%20tava%20olhando%20o%20Moved%20Osasco%20pelo%20site%20e%20gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es!%20%F0%9F%98%8A" 
+class="whatsapp-float" 
+target="_blank" 
+rel="noopener noreferrer" 
+title="Fale conosco no WhatsApp"
+onclick="return gtagSendEvent(this.href);">
+<img src="whatsapp.jpg" alt="WhatsApp" class="whatsapp-icon-img">
+</a>
+
+<style>
+.whatsapp-float {
+ position: fixed;
+ bottom: 20px;
+ right: 20px;
+ z-index: 9999;
+}
+
+.whatsapp-icon-img {
+ width: 60px;
+ height: 60px;
+ border-radius: 50%;
+ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+ transition: transform 0.2s;
+}
+
+.whatsapp-icon-img:hover {
+ transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+ .whatsapp-icon-img {
+   width: 50px;
+   height: 50px;
+ }
+
+ .whatsapp-float {
+   bottom: 15px;
+   right: 15px;
+ }
+}
+  </style>
+  
+<!-- BOLHA ESTILO EZTEC -->
+<a class="bolha-eztec" href="https://wa.me/5511954606125?text=Oi%2C%20acabei%20de%20ver%20o%20Moved%20Osasco%20no%20site%20e%20quero%20saber%20mais%20detalhes%20e%20condi%C3%A7%C3%B5es!%20Pode%20me%20ajudar%3F%20%F0%9F%92%AB" target="_blank" rel="noopener noreferrer" title="Fale com um corretor pelo WhatsApp" onclick="return gtagSendEvent(this.href);">
+  💬 Fale com um corretor
+</a>
+
+<style>
+  .bolha-eztec {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    background-color: #cc092f;
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    clip-path: polygon(0 0, 95% 0, 100% 10%, 100% 90%, 95% 100%, 0 100%);
+    box-shadow: -4px 8px 20px rgba(0, 0, 0, 0.2);
+    z-index: 9998;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    animation: flutuar 2s ease-in-out infinite alternate;
+  }
+
+  .bolha-eztec:hover {
+    background-color: #a00726;
+    transform: scale(1.03);
+  }
+
+  @keyframes flutuar {
+    from {
+      transform: translateY(-5px);
+    }
+    to {
+      transform: translateY(5px);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .bolha-eztec {
+      font-size: 1rem;
+      padding: 16px 20px;
+      top: 35%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .bolha-eztec {
+      font-size: 0.95rem;
+      padding: 14px 18px;
+      top: 38%;
+    }
+  }
+</style>
+
+
+
+
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-slider">
+    <div class="slide active">
+      <img src="BANNER.MOVED.jpg" alt="Banner Moved Osasco" />
+      <div class="slide-content">
+        <h1> <strong>MOVED RESIDENCE OSASCO</strong></h1>
+
+        <p>📏 <strong>Apartamentos de 56 e 72m²</strong></p>
+        <p>🛏️ <strong>2 e 3 Dormitórios</strong> com suíte</p>
+        <p>🍖 <strong>Varanda com churrasqueira</strong> e lazer de clube</p>
+        <p>📍 <strong>Localização estratégica</strong> e rentabilidade garantida</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="intro-ponto" style="padding: 60px 20px; background-color: #f9f9f9;">
+  <style>
+/* Hero */
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-slider img {
+  width: 100%;
+  height: 80vh; /* altura padrão grande */
+  object-fit: cover;
+  display: block;
+}
+
+.slide {
+  position: relative;
+}
+
+.slide-content {
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
+  color: #fff;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.6);
+  max-width: 90%;
+}
+
+.slide-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.slide-content p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+/* Ajuste para tablets */
+@media (max-width: 768px) {
+  .slide-content {
+    bottom: 10%;
+    left: 5%;
+  }
+  .slide-content h1 {
+    font-size: 1.6rem;
+  }
+  .slide-content p {
+    font-size: 1rem;
+  }
+  .hero-slider img {
+    height: 60vh; /* altura fixa no tablet */
+  }
+}
+
+/* Ajuste para mobile */
+@media (max-width: 480px) {
+  .slide-content h1 {
+    font-size: 1.3rem;
+  }
+  .slide-content p {
+    font-size: 0.9rem;
+  }
+  .hero-slider img {
+    height: 50vh; /* altura fixa no mobile */
+  }
+}
+
+/* Intro Ponto */
+.intro-ponto__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.intro-ponto__image {
+  flex: 1 1 400px;
+}
+
+.intro-ponto__image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.intro-ponto__text {
+  flex: 1 1 400px;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.intro-ponto__text h2 {
+  font-size: 1.8rem;
+  color: #d42428;
+  margin-bottom: 20px;
+}
+
+.intro-ponto__text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .intro-ponto__container {
+    flex-direction: column;
+  }
+  .intro-ponto__text h2 {
+    font-size: 1.5rem;
+  }
+}
+  </style>
+
+
+<div class="intro-ponto__container">
+  <div class="intro-ponto__image">
+    <img src="moved-osasco-fachada.jpg" alt="Fachada Dot 230 EZTEC" />
+  </div>
+  <div class="intro-ponto__text">
+    <h2>Toda mudança é impulsionada pelo movimento.</h2>
+    <p>Quando decidimos avançar é porque sabemos que merecemos mais. Mais tempo, mais escolhas, mais vida e qualidade a cada dia. Mover-se é isso. É sentir que tudo começa a se transformar quando se dá o primeiro passo. Moved Osasco nasce desse movimento. Com as melhores opções dentro e fora de casa. Conforto, lazer, conveniência, infraestrutura e acessos, no melhor endereço de Osasco, em frente à Cidade de Deus e a poucos minutos da Zona Oeste de São Paulo.</p>
+    <p>Esculpida ao lado do maior ícone natural da cidade. Na atmosfera do Ibirapuera, uma obra contemporânea ganha vida, lapidada por Perkins&Will, um escritório de arquitetura mundialmente renomado, presente em 4 continentes.</p>
+    <p>Um residencial dinâmico com mais de 7 mil m² de área e mais de 20 itens de lazer para toda a família aproveitar todos os dias. Porque viver bem é estar em constante movimento.</p>
+  </div>
+</div>
+
+
+   <meta charset="UTF-8">
+  <title>Infraestrutura do Empreendimento</title>
+
+  <!-- Font Awesome CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+  <style>
+    .diferenciais {
+      padding: 40px 20px;
+      background-color: #fff;
+    }
+
+    .diferenciais__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .diferenciais__item {
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .diferenciais__item:hover {
+      transform: scale(1.05);
+    }
+
+    .diferenciais__item i {
+      font-size: 36px;
+      color: #d42428;
+      margin-bottom: 12px;
+    }
+
+    .diferenciais__item h3 {
+      font-size: 1rem;
+      margin: 8px 0 4px;
+      color: #111;
+    }
+
+    .diferenciais__item p {
+      font-size: 0.9rem;
+      color: #555;
+    }
+  /* Remover estilos antigos diferenciais e adicionar novos */
+  .diferenciais-hz {
+    background: #fff;
+    padding: 32px 0 16px 0;
+  }
+  .diferenciais-hz__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .diferencial-hz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    min-width: 100px;
+    padding: 12px 8px;
+  }
+  .diferencial-hz i {
+    font-size: 2.2rem;
+    color: #d42428;
+    margin-bottom: 8px;
+  }
+  .diferencial-hz span {
+    font-size: 1rem;
+    color: #222;
+    text-align: center;
+  }
+  @media (max-width: 900px) {
+    .diferenciais-hz__container { gap: 18px; }
+    .diferencial-hz { width: 90px; font-size: 0.95rem; }
+    .diferencial-hz i { font-size: 1.5rem; }
+  }
+  @media (max-width: 600px) {
+    .diferenciais-hz__container { gap: 10px; }
+    .diferencial-hz { width: 80px; font-size: 0.9rem; }
+    .diferencial-hz i { font-size: 1.2rem; }
+  }
+  </style>
+</head>
+
+<body>
+
+  <!-- Seção de Diferenciais -->
+
+  <!-- Diferenciais horizontal, responsivo -->
+  <section class="diferenciais-hz">
+    <div class="diferenciais-hz__container">
+      <div class="diferencial-hz"><i class="fas fa-location-dot"></i><span>Em frente à Cidade de Deus</span></div>
+      <div class="diferencial-hz"><i class="fas fa-map-marker-alt"></i><span>Zona Oeste de SP</span></div>
+      <div class="diferencial-hz"><i class="fas fa-users"></i><span>Conforto térmico e acústico</span></div>
+      <div class="diferencial-hz"><i class="fas fa-door-closed"></i><span>Fechadura eletrônica</span></div>
+      <div class="diferencial-hz"><i class="fas fa-tree"></i><span>Mais de 20 itens de lazer</span></div>
+      <div class="diferencial-hz"><i class="fas fa-utensils"></i><span>Varanda Grill</span></div>
+      <div class="diferencial-hz"><i class="fas fa-battery-full"></i><span>Gerador para áreas privativas</span></div>
+      <div class="diferencial-hz"><i class="fas fa-wind"></i><span>Infra para ar-condicionado</span></div>
+      <div class="diferencial-hz"><i class="fas fa-car"></i><span>Vaga por unidade</span></div>
+    </div>
+  </section>
+
+  
+
+  <meta charset="UTF-8">
+  <title>Carrossel por Categoria</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+
+    .carrossel-container {
+      position: relative;
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+      padding: 40px 0;
+      background: #fff;
+    }
+
+    .carrossel-botoes {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .categoria-btn {
+      background-color: #f1f1f1;
+      border: none;
+      padding: 10px 20px;
+      margin: 0 5px;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 20px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .categoria-btn.active {
+      background-color: #d42428;
+      color: #fff;
+    }
+
+    .carrossel-galeria {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      gap: 24px;
+      position: relative;
+    }
+
+    .carrossel-galeria.active {
+      display: flex;
+    }
+
+    .navegacao {
+      position: relative;
+      background-color: #fff;
+      border-radius: 50%;
+      border: 2px solid #d42428;
+      color: #d42428;
+      font-size: 2.2rem;
+      padding: 8px 18px;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      transition: background 0.2s, color 0.2s, transform 0.2s;
+      user-select: none;
+    }
+
+    .navegacao:active {
+      background: #d42428;
+      color: #fff;
+      transform: scale(1.08);
+    }
+
+    .carrossel-img {
+      width: 100%;
+      max-width: 700px;
+      height: auto;
+      max-height: 65vh;
+      border-radius: 1.5rem;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.13);
+      object-fit: contain;
+      margin: 0 auto;
+      background: #fff;
+      padding: 0.5vw;
+      display: block;
+      transition: box-shadow 0.3s, transform 0.3s;
+    }
+
+    @media (max-width: 900px) {
+      .carrossel-container { max-width: 100vw; }
+      .carrossel-img { max-width: 98vw; max-height: 45vh; border-radius: 1rem; }
+      .navegacao { font-size: 1.5rem; padding: 6px 12px; }
+    }
+
+    @media (max-width: 600px) {
+      .carrossel-img { max-width: 95vw; max-height: 35vh; border-radius: 0.8rem; }
+      .navegacao { font-size: 1.2rem; padding: 4px 8px; }
+    }
+    /* Lightbox/Modal */
+    .modal-lightbox {
+      display: none;
+      position: fixed;
+      z-index: 9999;
+      left: 0; top: 0; width: 100vw; height: 100vh;
+      background: rgba(0,0,0,0.92);
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      transition: opacity 0.3s;
+    }
+    .modal-lightbox.active { display: flex; }
+    .modal-lightbox-img {
+      max-width: 98vw;
+      max-height: 85vh;
+      border-radius: 1.2rem;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+      background: #fff;
+      object-fit: contain;
+      margin-bottom: 16px;
+    }
+    .modal-lightbox-nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2.5rem;
+      color: #fff;
+      background: rgba(0,0,0,0.3);
+      border: none;
+      border-radius: 50%;
+      width: 48px; height: 48px;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer;
+      z-index: 10001;
+      transition: background 0.2s;
+    }
+    .modal-lightbox-nav:active { background: #d42428; }
+    .modal-lightbox-nav.prev { left: 24px; }
+    .modal-lightbox-nav.next { right: 24px; }
+    .modal-lightbox-close {
+      position: absolute;
+      top: 24px; right: 24px;
+      font-size: 2.2rem;
+      color: #fff;
+      background: rgba(0,0,0,0.3);
+      border: none;
+      border-radius: 50%;
+      width: 44px; height: 44px;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer;
+      z-index: 10002;
+      transition: background 0.2s;
+    }
+    .modal-lightbox-close:active { background: #d42428; }
+    @media (max-width: 600px) {
+      .modal-lightbox-img { max-width: 98vw; max-height: 65vh; }
+      .modal-lightbox-nav { font-size: 2rem; width: 38px; height: 38px; }
+      .modal-lightbox-close { font-size: 1.7rem; width: 34px; height: 34px; }
+    }
+    </style>
+</head>
+<body>
+ <!-- Botões de Categoria -->
+    <div class="carrossel-botoes">
+      <button class="categoria-btn active" data-categoria="apartamento">Apartamento</button>
+      <button class="categoria-btn" data-categoria="plantas">Plantas</button>
+      <button class="categoria-btn" data-categoria="lazer">Lazer</button>
+    </div>
+  
+    <!-- Galeria: Apartamento (inicialmente ativa) -->
+    <div class="carrossel-galeria active" id="apartamento">
+      <button class="navegacao anterior" onclick="navegar('apartamento', -1)">❮</button>
+      <img class="carrossel-img" id="img-apartamento" src="sp-360-eztec-lazer1.jpg" alt="Imagem do Apartamento">
+      <button class="navegacao proxima" onclick="navegar('apartamento', 1)">❯</button>
+    </div>
+  
+    <!-- Galeria: Plantas -->
+    <div class="carrossel-galeria" id="plantas">
+      <button class="navegacao anterior" onclick="navegar('plantas', -1)">❮</button>
+      <img class="carrossel-img" id="img-plantas" src="planta-meio.jpg" alt="Imagem">
+      <button class="navegacao proxima" onclick="navegar('plantas', 1)">❯</button>
+    </div>
+  
+
+    <!-- Galeria: Lazer -->
+    <div class="carrossel-galeria" id="lazer">
+      <button class="navegacao anterior" onclick="navegar('lazer', -1)">❮</button>
+      <img class="carrossel-img" id="img-lazer" src="01-Lazer.png" alt="Imagem">
+      <button class="navegacao proxima" onclick="navegar('lazer', 1)">❯</button>
+    </div>
+
+    <!-- Modal/Lightbox para imagens em tela cheia -->
+    <div class="modal-lightbox" id="modal-lightbox">
+      <button class="modal-lightbox-nav prev" id="modal-prev" aria-label="Anterior">❮</button>
+      <img class="modal-lightbox-img" id="modal-img" src="" alt="Imagem em tela cheia">
+      <button class="modal-lightbox-nav next" id="modal-next" aria-label="Próxima">❯</button>
+      <button class="modal-lightbox-close" id="modal-close" aria-label="Fechar">✕</button>
+    </div>
+</section>
+
+<!-- JavaScript Atualizado -->
+<script>
+  const botoes = document.querySelectorAll('.categoria-btn');
+  const galerias = document.querySelectorAll('.carrossel-galeria');
+  const imagens = {
+    apartamento: ['dorm-meio.jpg', 'dorm-ponta.jpg'],
+    plantas: ['planta-meio.jpg', 'planta-ponta.jpg', 'planta-ponta-opcao.jpg', 'implantacao.jpg'],
+    lazer: ['moved-osasco-lazer1.jpg', 'moved-osasco-lazer2.jpg', 'moved-osasco-lazer3.jpg', 'moved-osasco-lazer4.jpg', 'moved-osasco-lazer5.jpg', 'moved-osasco-lazer6.jpg', 'moved-osasco-lazer7.jpg', 'moved-osasco-lazer8.jpg', 'moved-osasco-lazer9.jpg', 'moved-osasco-lazer10.jpg', 'moved-osasco-lazer11.jpg', 'moved-osasco-lazer12.jpg', 'moved-osasco-lazer13.jpg', 'moved-osasco-lazer14.jpg', 'moved-osasco-lazer15.jpg', 'moved-osasco-lazer16.jpg', 'moved-osasco-lazer17.jpg', 'moved-osasco-lazer18.jpg', 'moved-osasco-lazer19.jpg', 'moved-osasco-lazer20.jpg']
+  };
+  const indices = { apartamento: 0, plantas: 0, lazer: 0 };
+  // Inicializa com apartamento ativo
+  document.addEventListener('DOMContentLoaded', function() {
+    botoes.forEach(btn => btn.classList.remove('active'));
+    galerias.forEach(galeria => galeria.classList.remove('active'));
+    document.querySelector('.categoria-btn[data-categoria="apartamento"]').classList.add('active');
+    document.getElementById('apartamento').classList.add('active');
+    atualizarImagem('apartamento');
+  });
+  botoes.forEach(botao => {
+    botao.addEventListener('click', () => {
+      botoes.forEach(btn => btn.classList.remove('active'));
+      galerias.forEach(galeria => galeria.classList.remove('active'));
+      botao.classList.add('active');
+      const categoria = botao.getAttribute('data-categoria');
+      document.getElementById(categoria).classList.add('active');
+      atualizarImagem(categoria);
+    });
+  });
+  window.navegar = function(categoria, direcao) {
+    const total = imagens[categoria].length;
+    indices[categoria] = (indices[categoria] + direcao + total) % total;
+    atualizarImagem(categoria);
+  }
+  function atualizarImagem(categoria) {
+    document.getElementById(`img-${categoria}`).src = imagens[categoria][indices[categoria]];
+  }
+
+  // --- Modal/Lightbox ---
+  let modalAberto = false;
+  let categoriaAtual = 'apartamento';
+  let indiceAtual = 0;
+  const modal = document.getElementById('modal-lightbox');
+  const modalImg = document.getElementById('modal-img');
+  const modalPrev = document.getElementById('modal-prev');
+  const modalNext = document.getElementById('modal-next');
+  const modalClose = document.getElementById('modal-close');
+
+  // Detecta qual galeria está ativa
+  function getCategoriaAtiva() {
+    for (const galeria of galerias) {
+      if (galeria.classList.contains('active')) return galeria.id;
+    }
+    return 'apartamento';
+  }
+
+  // Abre o modal ao clicar na imagem do carrossel
+  document.querySelectorAll('.carrossel-img').forEach(img => {
+    img.addEventListener('click', function() {
+      categoriaAtual = getCategoriaAtiva();
+      indiceAtual = indices[categoriaAtual];
+      abrirModal();
+    });
+  });
+
+  function abrirModal() {
+    modal.classList.add('active');
+    modalAberto = true;
+    atualizarModalImg();
+    document.body.style.overflow = 'hidden'; // Evita scroll do fundo
+  }
+  function fecharModal() {
+    modal.classList.remove('active');
+    modalAberto = false;
+    document.body.style.overflow = '';
+  }
+  function atualizarModalImg() {
+    modalImg.src = imagens[categoriaAtual][indiceAtual];
+    modalImg.alt = 'Imagem em tela cheia';
+  }
+  modalPrev.addEventListener('click', function(e) {
+    e.stopPropagation();
+    const total = imagens[categoriaAtual].length;
+    indiceAtual = (indiceAtual - 1 + total) % total;
+    atualizarModalImg();
+  });
+  modalNext.addEventListener('click', function(e) {
+    e.stopPropagation();
+    const total = imagens[categoriaAtual].length;
+    indiceAtual = (indiceAtual + 1) % total;
+    atualizarModalImg();
+  });
+  modalClose.addEventListener('click', function(e) {
+    e.stopPropagation();
+    fecharModal();
+  });
+  // Fecha ao clicar fora da imagem
+  modal.addEventListener('click', function(e) {
+    if (e.target === modal) fecharModal();
+  });
+  // Fecha com ESC
+  document.addEventListener('keydown', function(e) {
+    if (modalAberto && e.key === 'Escape') fecharModal();
+  });
+</script>
+</section>
+<body>
+</style>
+<!-- MAPA INTERATIVO GOOGLE MAPS -->
+<div class="mapa-container">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.487470302572!2d-46.78316762575766!3d-23.51594615907127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8549ac490d5%3A0xb59c8b9e23a58f85!2sAv.%20Bussocaba%2C%20702%20-%20Centro%2C%20Osasco%20-%20SP%2C%2006036-080!5e0!3m2!1spt-BR!2sbr!4v1712727738795!5m2!1spt-BR!2sbr" 
+    width="100%" 
+    height="450" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+
+
+<style>
+  .mapa-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 40px auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+
+  @media (max-width: 600px) {
+    .mapa-container iframe {
+      height: 300px;
+    }
+  }
+</style>
+
+<!-- BLOCO COM DUAS COLUNAS -->
+<section class="bloco-infos">
+  <div class="container-infos-duas-colunas">
+    
+    <!-- COLUNA PRINCIPAL -->
+    <div class="coluna-esquerda">
+      <h2>📍 Localização</h2>
+      <p><strong>Endereço:</strong> R. Narciso Sturlini, 749 - Osasco, SP</p>
+
+      <h2>🏗️ Informações Gerais</h2>
+      <p><strong>Área total do terreno:</strong> 5.998,69 m²</p>
+      <p><strong>Número de torres:</strong> 2 torres (Condomínio 1)</p>
+      <p><strong>Total de unidades habitacionais:</strong> 357</p>
+
+      <h2>🛏️ Tipologias Residenciais</h2>
+      <p><strong>179 unidades</strong> – 3 dormitórios com suíte e terraço coberto – 71,83 m²</p>
+      <p><strong>178 unidades</strong> – 2 dormitórios com suíte e terraço coberto – 56,52 m²</p>
+      <p><strong>Unidades por pavimento:</strong> 8 por andar</p>
+
+      <h2>🚗 Vagas</h2>
+      <p><strong>357 vagas</strong> para automóveis</p>
+      <p><strong>11 vagas</strong> PCD (Pessoas com Deficiência)</p>
+      <p><strong>16 vagas</strong> para motos</p>
+
+      <h2>🌳 Projeto Arquitetônico e Urbanístico</h2>
+      <p><strong>Arquitetura:</strong> Rubio & Luongo Arquitetura</p>
+      <p><strong>Paisagismo:</strong> Rossin Tramontina Desenho da Paisagem</p>
+      <p><strong>Interiores:</strong> DP Barros Interiores</p>
+    </div>
+
+    <!-- COLUNA DAS ÁREAS COMUNS -->
+    <div class="coluna-direita">
+      <h2>🧘‍♀️ Áreas Comuns (Condomínio 1)</h2>
+      <ul>
+        <li>Piscinas (adulto e infantil)</li>
+        <li>Playground</li>
+        <li>Lounge</li>
+        <li>Fitness</li>
+        <li>Espaço Gourmet</li>
+        <li>Salão de Festas</li>
+        <li>Apoio Festas</li>
+        <li>Coworking</li>
+        <li>Lounge Gourmet</li>
+        <li>Espaço de Jogos</li>
+        <li>Brinquedoteca</li>
+        <li>Mini Market</li>
+        <li>Solarium</li>
+        <li>Campinho</li>
+        <li>Academia externa</li>
+        <li>Pet Place</li>
+        <li>Redário</li>
+        <li>Espaço Picnic</li>
+        <li>Lounge com Lareira</li>
+        <li>Bicicletário</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .bloco-infos {
+    width: 100%;
+    background-color: #fafafa;
+    padding: 60px 20px;
+    font-family: Arial, sans-serif;
+    color: #000;
+  }
+
+  .container-infos-duas-colunas {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+  }
+
+  .coluna-esquerda, .coluna-direita {
+    flex: 1;
+    min-width: 280px;
+  }
+
+  .coluna-esquerda h2,
+  .coluna-direita h2 {
+    color: #b5121b;
+    font-size: 1.4rem;
+    margin-top: 30px;
+  }
+
+  .coluna-esquerda p {
+    margin: 10px 0;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .coluna-direita ul {
+    list-style: disc;
+    padding-left: 20px;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  .coluna-direita ul li {
+    margin: 6px 0;
+  }
+
+  @media (max-width: 768px) {
+    .container-infos-duas-colunas {
+      flex-direction: column;
+    }
+
+    .coluna-esquerda, .coluna-direita {
+      width: 100%;
+    }
+
+    .coluna-esquerda h2,
+    .coluna-direita h2 {
+      font-size: 1.2rem;
+    }
+  }
+</style>
+
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perguntas Frequentes - moved RESIDENCE Osasco</title>
+<style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    color: #000;
+  }
+
+  .faq-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+
+  .faq-title {
+    text-align: center;
+    color: #dc3545;
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+
+  .faq-button {
+    width: 100%;
+    padding: 20px;
+    background-color: #dc3545;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 0;
+  }
+
+  .faq-button:hover {
+    background-color: #c82333;
+  }
+
+  .faq-item {
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .faq-question {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    padding: 15px 20px;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    text-align: left;
+    font-size: 1rem;
+  }
+
+  .faq-answer {
+    padding: 15px 20px;
+    display: none;
+    color: #333;
+    font-size: 0.95rem;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+  }
+
+  .faq-item.active .faq-answer {
+    display: block;
+  }
+
+  @media (max-width: 600px) {
+    .faq-title {
+      font-size: 1.5rem;
+    }
+
+    .faq-question {
+      font-size: 0.95rem;
+    }
+
+    .faq-answer {
+      font-size: 0.9rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- Seção do Vídeo EZTEC -->
+<section class="video-eztec">
+  <div class="video-wrapper">
+    <iframe 
+      src="https://www.youtube.com/embed/reqhJ5DW2_A?si=gPGhFlIPZwYT8-eo"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
+<style>
+  .video-eztec {
+    width: 100vw;
+    background-color: #ffffff; /* fundo branco */
+    color: #000000; /* texto preto */
+    margin: 0;
+    padding: 0;
+  }
+
+  .video-wrapper {
+    position: relative;
+    width: 100vw;
+    height: 56.25vw; /* Proporção 16:9 responsiva */
+    max-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  /* Remover margens padrão do body */
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+  }
+</style>
+
+<!-- Botão Interativo para Abrir PDF -->
+<section class="pdf-eztec-botao">
+  <div class="container-pdf">
+    <h2>📖 Conheça o Book Exclusivo do Empreendimento</h2>
+    <p>Clique abaixo para visualizar todos os detalhes no nosso catálogo digital:</p>
+    <a href="book.pdf" target="_blank" class="btn-eztec-pdf">
+      🔍 Abrir Book Completo
+    </a>
+  </div>
+</section>
+
+<style>
+  .pdf-eztec-botao {
+    width: 100vw;
+    padding: 60px 20px;
+    background-color: #ffffff; /* fundo branco */
+    color: #000000; /* texto preto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-pdf {
+    text-align: center;
+    max-width: 800px;
+  }
+
+  .container-pdf h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .container-pdf p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+
+  .btn-eztec-pdf {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #000; /* botão preto */
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn-eztec-pdf:hover {
+    background-color: #333;
+    transform: scale(1.05);
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+  }
+</style>
+
+
+
+  <div class="faq-container">
+    <button class="faq-button" onclick="mostrarFAQ()">📘 Ver Perguntas Frequentes</button>
+  
+    <div id="faq-lista" style="display: none;">
+      <div class="faq-item">
+        <div class="faq-question">1) QUAL SISTEMA CONSTRUTIVO?</div>
+        <div class="faq-answer">Parede de concreto.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">2) AS PAREDES INTERNAS DAS UNIDADES SERÃO DE DRYWALL?</div>
+        <div class="faq-answer">Sim, algumas paredes internas serão em drywall.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">3) TEM PAREDE DE DRYWALL QUE DIVIDE UNIDADES?</div>
+        <div class="faq-answer">Não, as paredes serão em concreto.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">4) QUAL O PÉ DIREITO DAS UNIDADES?</div>
+        <div class="faq-answer">2,72m no apê em geral e 2,30m nos banheiros.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">5) TEREMOS INFRA PARA MEDIÇÃO INDIVIDUALIZADA DE ÁGUA?</div>
+        <div class="faq-answer">Sim, há previsão de terminais para eventual instalação de medidores individuais de água, ficando a cargo do condomínio a aquisição dos medidores e contratação dos serviços de medição junto a empresas especializadas.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">6) PODE FECHAR O TERRAÇO COM VIDRO?</div>
+        <div class="faq-answer">A estrutura do apartamento suporta uma carga "extra" por segurança, porém essas áreas não podem ser fechadas por terem sido aprovadas como terraço. O fechamento posterior ao habite-se tem que ser aprovado em convenção de condomínio, com total responsabilidade do mesmo.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">7) AS UNIDADES TERÃO INFRA PARA AR-CONDICIONADO?</div>
+        <div class="faq-answer">Sim, todas as unidades terão infra para ar-condicionado (ponto de força, carga e espera para dreno).</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">8) QUAL O TIPO DE AQUECIMENTO DOS CHUVEIROS?</div>
+        <div class="faq-answer">Os chuveiros serão a gás.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">9) OS APARTAMENTOS TERÃO GÁS?</div>
+        <div class="faq-answer">Sim, serão preparados para fogão ou cooktop.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">10) DIMENSÃO DA PISCINA</div>
+        <div class="faq-answer">
+          <strong>Condomínio 1:</strong><br>
+          Piscina Adulto: 21,78 x 8,53m<br>
+          Profundidade: Deck Molhado 0,20m / Piscina Recreativa 1,40m<br>
+          Piscina Infantil: 5,95 x 6,39m<br>
+          Profundidade: 0,20m a 0,40m<br><br>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">11) QUAL A DIMENSÃO DAS VAGAS DE VEÍCULOS?</div>
+        <div class="faq-answer">As vagas têm tamanho único de 2,20 x 4,50m.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">12) ONDE ESTÃO LOCALIZADAS AS VAGAS DE VEÍCULOS? SÃO COBERTAS?</div>
+        <div class="faq-answer">
+          <strong>Condomínio 1:</strong> 66,1% cobertas e 33,9% descobertas, distribuídas em 2 pavimentos: 226 no 1º Subsolo e 142 no Térreo.<br><br>
+          <strong>Condomínio 2:</strong> 85,5% cobertas e 14,5% descobertas, distribuídas em 3 pavimentos: 175 no 2º Subsolo, 170 no 1º Subsolo e 192 no Térreo.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">13) ONDE ESTÃO LOCALIZADAS AS VAGAS DE MOTOS? SÃO COBERTAS?</div>
+        <div class="faq-answer">No condomínio 1: todas cobertas, distribuídas em dois pavimentos (10 no 1º subsolo e no térreo).<br> No condomínio 2: 38% descobertas e 62% cobertas (7 no 2º subsolo, 6 no 1º subsolo e 8 no térreo).</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">14) QUAIS UNIDADES TERÃO VAGAS? SERÃO VINCULADAS ÀS UNIDADES?</div>
+        <div class="faq-answer">Todas as unidades terão direito a 1 vaga de veículo.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">15) A BANCADA DA COZINHA TAMBÉM SERÁ EM GRANITO?</div>
+        <div class="faq-answer">Sim, tanto na cozinha quanto nos banheiros.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">16) SERÁ ENTREGUE PISO?</div>
+        <div class="faq-answer">Sim, pisos e revestimentos serão entregues apenas nas áreas molhadas.</div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  function mostrarFAQ() {
+    const lista = document.getElementById("faq-lista");
+    lista.style.display = lista.style.display === "none" ? "block" : "none";
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const perguntas = document.querySelectorAll(".faq-question");
+    perguntas.forEach(pergunta => {
+      pergunta.addEventListener("click", () => {
+        const item = pergunta.parentElement;
+        item.classList.toggle("active");
+      });
+    });
+  });
+</script>
+
+<!-- Lume House - Cards relacionados -->
+<div class="cards-estrategicos-grid" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 32px; padding: 32px 0;">
+  <div class="card h-100 shadow-sm" style="width:340px;">
+    <img src="reserva-jb-osasco-card.webp" class="card-img-top" alt="Reserva JB" style="width:100%;height:220px;object-fit:cover;">
+    <div class="card-body d-flex flex-column">
+      <h5 class="card-title">Reserva JB</h5>
+      <p class="card-text">67 a 91 m²</p>
+      <a href="https://reserva-jb.ezteccorretor.com.br" class="btn btn-danger mt-auto w-100">saiba mais</a>
+    </div>
+  </div>
+  <div class="card h-100 shadow-sm" style="width:340px;">
+    <img src="113444-banner-blue-marine-lg.jpg" class="card-img-top" alt="Blue Marine Home Resort" style="width:100%;height:220px;object-fit:cover;">
+    <div class="card-body d-flex flex-column">
+      <h5 class="card-title">Blue Marine Home Resort</h5>
+      <p class="card-text">Studios a 3 dorms. de 25 a 80 m²</p>
+      <a href="https://blue-marine-home-resort.ezteccorretor.com.br" class="btn btn-danger mt-auto w-100">saiba mais</a>
+    </div>
+  </div>
+  <div class="card h-100 shadow-sm" style="width:340px;">
+    <img src="Villares-Parada-Inglesa-card.jpg" class="card-img-top" alt="Villares Parada Inglesa" style="width:100%;height:220px;object-fit:cover;">
+    <div class="card-body d-flex flex-column">
+      <h5 class="card-title">Villares Parada Inglesa</h5>
+      <p class="card-text">1 a 3 dorms. | 32 a 71 m²</p>
+      <a href="https://villares-parada-inglesa.ezteccorretor.com.br" class="btn btn-danger mt-auto w-100">saiba mais</a>
+    </div>
+  </div>
+</div>
+
+   <!-- Seção de Cadastro -->
+<section id="cadastro" class="py-5" style="background-color: #441111; color: #fff;">
+  <div class="container text-center">
+    <h2 class="mb-4 fw-bold">Algumas oportunidades não precisam ser buscadas</h2>
+    <h2 class="mb-4 fw-bold">Basta você estar no lugar certo!</h2>
+    
+    <p class="lead" style="color: #fff;">Para ser o primeiro a receber informações.</p>
+
+    <form name="cadastro" method="POST" data-netlify="true" action="obrigado.html" 
+          class="d-flex flex-column align-items-center" 
+          style="max-width: 400px; margin: 0 auto;">
+
+      <input type="hidden" name="form-name" value="cadastro">
+
+      <!-- Campo Nome (opcional) -->
+      <input name="nome" type="text" class="form-control mb-3" placeholder="Nome">
+
+      <!-- Campo Telefone (opcional) -->
+      <input name="telefone" type="tel" class="form-control mb-3" placeholder="Telefone">
+
+      <!-- Campo E-mail (obrigatório) -->
+      <input name="email" type="email" class="form-control mb-3" placeholder="E-mail" required>
+
+      <!-- Botão Enviar -->
+      <button type="submit" class="btn btn-danger w-100">Enviar</button>
+    </form>
+  </div>
+</section>
+
+<!-- Sessão de Comentários -->
+<section class="comentarios-eztec" style="background:#f8f9fa; padding:50px 0;">
+  <div class="container" style="max-width:700px;">
+    <h2 class="text-center mb-4" style="color:#b5121b;">Comentários de Clientes</h2>
+    <p class="text-center mb-4" style="color:#333;">Veja o que outros clientes estão dizendo e compartilhe sua experiência! Sua opinião é muito importante para nós.</p>
+    <div id="comentarios-lista">
+      <div class="comentario-item">
+        <strong>Marina Souza</strong>
+        <p>Fui atendida pelo corretor Duke, que me explicou tudo com muita paciência. Estou muito animada para morar aqui!</p>
+        <div class="resposta">
+          <strong>Departamento de Relacionamento e Vendas <span style="color:#1e7e34;font-weight:normal;">(11 95460-6125)</span>:</strong> Marina, agradecemos sua confiança! Conte sempre com nosso time para o que precisar.
+        </div>
+      </div>
+      <div class="comentario-item">
+        <strong>Ricardo Lima</strong>
+        <p>O atendimento da corretora Bella foi excelente, tirou todas as minhas dúvidas e me deixou seguro para investir.</p>
+        <div class="resposta">
+          <strong>Departamento de Relacionamento e Vendas <span style="color:#1e7e34;font-weight:normal;">(11 95460-6125)</span>:</strong> Ricardo, ficamos felizes com seu feedback positivo! Obrigado por investir conosco.
+        </div>
+      </div>
+      <div class="comentario-item">
+        <strong>Patrícia Alves</strong>
+        <p>O Ferreira me mostrou todas as opções e me ajudou a escolher o melhor apartamento para minha família. Recomendo!</p>
+        <div class="resposta">
+          <strong>Departamento de Relacionamento e Vendas <span style="color:#1e7e34;font-weight:normal;">(11 95460-6125)</span>:</strong> Patrícia, obrigado pela recomendação! Nosso objetivo é sempre encontrar a melhor solução para cada cliente.
+        </div>
+      </div>
+      <div class="comentario-item">
+        <strong>Eduardo Silva</strong>
+        <p>Eu buscava um apartamento com metragem maior e o departamento rapidamente me apresentou opções que se encaixaram no meu perfil. Resolvido!</p>
+        <div class="resposta">
+          <strong>Departamento de Relacionamento e Vendas <span style="color:#1e7e34;font-weight:normal;">(11 95460-6125)</span>:</strong> Eduardo, obrigado por confiar em nossa equipe! Estamos sempre prontos para encontrar a solução ideal para cada cliente.
+        </div>
+      </div>
+      <div class="comentario-item">
+        <strong>Simone Castro</strong>
+        <p>Queria um imóvel já pronto para morar e o time de vendas me ajudou a encontrar exatamente o que eu precisava. Atendimento excelente!</p>
+        <div class="resposta">
+          <strong>Departamento de Relacionamento e Vendas <span style="color:#1e7e34;font-weight:normal;">(11 95460-6125)</span>:</strong> Simone, ficamos felizes em ajudar! Resolver problemas e realizar sonhos é nossa missão.
+        </div>
+      </div>
+      <div class="comentario-item">
+        <strong>João Batista</strong>
+        <p>Investi no Moved Osasco por indicação de amigos e estou muito satisfeito. Atendimento rápido e transparente.</p>
+        <div class="resposta">
+          <strong>Departamento de Relacionamento e Vendas <span style="color:#1e7e34;font-weight:normal;">(11 95460-6125)</span>:</strong> João, agradecemos sua confiança e indicação! Estamos sempre à disposição.
+        </div>
+      </div>
+      <div class="comentario-item">
+        <strong>Camila Torres</strong>
+        <p>Tive um problema com o envio do cadastro, mas o suporte resolveu tudo rapidamente. Agora só alegria!</p>
+        <div class="resposta">
+          <strong>Departamento de Relacionamento e Vendas <span style="color:#1e7e34;font-weight:normal;">(11 95460-6125)</span>:</strong> Camila, obrigado pelo retorno! Ficamos felizes em solucionar rapidamente. Conte conosco!
+        </div>
+      </div>
+      <div class="comentario-item">
+        <strong>Felipe Martins</strong>
+        <p>Vi vários conhecidos comprando e resolvi investir também. O atendimento foi impecável!</p>
+        <div class="resposta">
+          <strong>Departamento de Relacionamento e Vendas <span style="color:#1e7e34;font-weight:normal;">(11 95460-6125)</span>:</strong> Felipe, que bom que você se juntou a tantos clientes satisfeitos! Seja bem-vindo ao Moved Osasco.
+        </div>
+      </div>
+      <div class="comentario-item">
+        <strong>Larissa Prado</strong>
+        <p>Fiquei em dúvida sobre a metragem, mas o time de vendas me apresentou outras opções e tudo foi resolvido.</p>
+        <div class="resposta">
+          <strong>Departamento de Relacionamento e Vendas <span style="color:#1e7e34;font-weight:normal;">(11 95460-6125)</span>:</strong> Larissa, obrigado pelo seu comentário! Sempre buscamos a melhor alternativa para nossos clientes.
+        </div>
+      </div>
+    </div>
+    <div class="text-center my-3">
+      <button id="toggle-comentarios" class="btn btn-outline-danger">Mostrar/Esconder Comentários</button>
+    </div>
+    <form id="comentarioForm" name="cadastro" method="POST" data-netlify="true" class="mt-4" style="background:#fff; border-radius:8px; padding:25px; box-shadow:0 2px 8px rgba(0,0,0,0.07);">
+      <input type="hidden" name="form-name" value="cadastro">
+      <div class="mb-3">
+        <input name="nome" type="text" class="form-control" placeholder="Seu nome" required>
+      </div>
+      <div class="mb-3">
+        <input name="numero" type="tel" class="form-control" placeholder="Seu telefone" required>
+      </div>
+      <div class="mb-3">
+        <textarea name="mensagem" class="form-control" rows="3" placeholder="Deixe seu comentário" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-danger w-100">Enviar Comentário</button>
+      <div id="comentarioAgradecimento" class="text-center mt-2" style="font-size:1.15rem;color:#1e7e34; background:#d4edda; border:1.5px solid #1e7e34; border-radius:6px; font-weight:bold; padding:12px 0 10px 0; margin-top:10px; display:none;">Agradecemos por compartilhar sua experiência. Faremos o melhor para responder ou resolver.</div>
+    </form>
+  </div>
+</section>
+
+<style>
+.comentario-item {
+  background: #fff;
+  border-radius: 8px;
+  padding: 18px 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.comentario-item strong {
+  color: #b5121b;
+}
+.resposta {
+  background: #f1f1f1;
+  border-left: 4px solid #b5121b;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 0.97rem;
+  color: #333;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const btn = document.getElementById("toggle-comentarios");
+  const lista = document.getElementById("comentarios-lista");
+  let visivel = true;
+  lista.style.display = "block";
+  btn.addEventListener("click", function() {
+    visivel = !visivel;
+    lista.style.display = visivel ? "block" : "none";
+  });
+  // Formulário de comentário: agradecimento inline
+  const form = document.getElementById("comentarioForm");
+  const agradecimento = document.getElementById("comentarioAgradecimento");
+  if(form) {
+    form.addEventListener("submit", function(e) {
+      e.preventDefault();
+      // Envia para Netlify
+      const data = new FormData(form);
+      fetch("/", {
+        method: "POST",
+        body: data
+      }).then(function() {
+        agradecimento.style.display = "block";
+        form.reset();
+        setTimeout(()=>{ agradecimento.style.display = "none"; }, 8000);
+      });
+    });
+  }
+});
+</script>
+
+</body>
+</html>
+
+
+
+
+
+<!-- Rodapé -->
+<footer class="rodape-eztec py-5 bg-white text-dark">
+  <div class="container">
+    <div class="row">
+
+      <!-- EZTEC -->
+      <div class="col-md-3 mb-4">
+        <h5>EZTEC</h5>
+        <p>Desde 1979 entregando excelência em empreendimentos de alto padrão.</p>
+        <div class="social-icons mt-3">
+          <a href="https://www.instagram.com/moved.eztec.osasco/" target="_blank" rel="noopener noreferrer" class="footer-link d-flex align-items-center">
+            <i class="fab fa-instagram me-2"></i> Instagram
+          </a>
+        </div>
+      </div>
+
+      <!-- Institucional -->
+      <div class="col-md-3 mb-4">
+        <h6>Institucional</h6>
+        <ul class="list-unstyled">
+          <li><a href="quem-somos.html" class="footer-link">Quem somos</a></li>
+        </ul>
+      </div>
+
+      <!-- Atendimento -->
+      <div class="col-md-3 mb-4">
+        <h6>Atendimento</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="footer-link">Fale conosco</a></li>
+          <li><a href="codigo-de-etica.html" class="footer-link">Canal de ética</a></li>
+        </ul>
+      </div>
+
+      <!-- Contato -->
+      <div class="col-md-3 mb-4">
+        <h6>Contato</h6>
+        <p>
+          <i class="fas fa-phone me-2"></i>
+          <a href="tel:+5511954606125" class="footer-link">11 95460-6125</a>
+        </p>
+        <p>
+          <i class="fas fa-envelope me-2"></i>
+          <a href="mailto:contatoequipecorretores@gmail.com" class="footer-link">
+            contatoequipecorretores@gmail.com
+          </a>
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Footer Base -->
+    <div class="text-center mt-4 border-top pt-3 small">
+      &copy; 2025 EZTEC S.A. Todos os direitos reservados.
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+# Robots.txt for Torino Mooca Città
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /sitemap.xml
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+
+# Sitemap
+Sitemap: https://torinomoocacitta.ezteccorretor.com.br/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Específico para Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Específico para Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
